@@ -17,7 +17,7 @@ A component and UI responsiveness test, with focus on performance.
 
 * Splash screen
 * Home 
-* Map that consists off a .PNG
+* WorldMap that consists of a .PNG
   
 ## Pre-requisits
 
