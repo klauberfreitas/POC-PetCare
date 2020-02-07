@@ -17,7 +17,7 @@ const TabsNavigator = createBottomTabNavigator(
       screen: Home,
       navigationOptions: () => ({
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="paw" color={tintColor} size={24} />
+          <Icon name="home" color={tintColor} size={24} />
         )
       })
     },
@@ -26,7 +26,7 @@ const TabsNavigator = createBottomTabNavigator(
       
       navigationOptions: () => ({
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="map" color={tintColor} size={24} />
+          <Icon name="globe" color={tintColor} size={24} />
         )
       })
     },
@@ -37,21 +37,22 @@ const TabsNavigator = createBottomTabNavigator(
           <MultiBarToggle
             navigation={navigation}
             actionSize={30}
+            backgroundColor="#4666E5"
             routes={[
               {
                 routeName: Routes.OtherScreen,
-                color: "#089CDF",
-                icon: <Icon name="rocket" color="#FFF" size={20} />
+                color: "#4666E5",
+                icon: <Icon name="paw" color="#FFF" size={15} />
               },
               {
                 routeName: Routes.OtherScreen,
-                color: "#089CDF",
-                icon: <Icon name="dashboard" color="#FFF" size={15} />
+                color: "#4666E5",
+                icon: <Icon name="calendar" color="#FFF" size={15} />
               },
               {
                 routeName: Routes.OtherScreen,
-                color: "#089CDF",
-                icon: <Icon name="gears" color="#FFF" size={15} />
+                color: "#4666E5",
+                icon: <Icon name="heart" color="#FFF" size={15} />
               }
             ]}
             icon={<Icon name="plus" color="#FFFFFF" size={30} />}
@@ -66,7 +67,7 @@ const TabsNavigator = createBottomTabNavigator(
       screen: Private,
       navigationOptions: () => ({
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="lock" color={tintColor} size={24} />
+          <Icon name="comment" color={tintColor} size={24} />
         )
       })
     },
@@ -74,7 +75,7 @@ const TabsNavigator = createBottomTabNavigator(
       screen: Profile,
       navigationOptions: () => ({
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="user" color={tintColor} size={24} />
+          <Icon name="cog" color={tintColor} size={24} />
         )
       })
     }

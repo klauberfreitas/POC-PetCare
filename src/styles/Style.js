@@ -4,8 +4,9 @@ const { StyleSheet } = React;
 
 export default {
 
-containerView: {
+container: {
   flex: 1,
+  backgroundColor: "#FFE9E4",
 },
 loginScreenContainer: {
   flex: 1,

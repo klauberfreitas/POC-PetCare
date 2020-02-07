@@ -35,37 +35,33 @@ class Home extends React.Component {
           <View style={styles.avatarContainer}>
             <Image
               style={styles.avatarMenu}
-              source={require("../assets/images/animal1.png")}
+              source={require("../assets/images/dadau.png")}
             />
-            <Text style={styles.petName}>Ajuda</Text>
+            <Text style={styles.petName}>Dadau</Text>
           </View>
           <View style={styles.avatarContainer}>
             <Image
               style={styles.avatarMenu}
-              source={require("../assets/images/animal1.png")}
+              source={require("../assets/images/amora.png")}
             />
-            <Text style={styles.petName}>Ajuda</Text>
-          </View>
-
-          <View style={styles.avatarContainer}>
-            <Image
-              style={styles.avatarMenu}
-              source={require("../assets/images/animal1.png")}
-            />
-            <Text style={styles.petName}>Ajuda</Text>
+            <Text style={styles.petName}>Amora</Text>
           </View>
 
           <View style={styles.avatarContainer}>
             <Image
               style={styles.avatarMenu}
-              source={require("../assets/images/animal1.png")}
+              source={require("../assets/images/eddga.png")}
             />
-            <Text style={styles.petName}>Ajuda</Text>
+            <Text style={styles.petName}>Eddga</Text>
           </View>
 
-
-
-
+          <View style={styles.avatarContainer}>
+            <Image
+              style={styles.avatarMenu}
+              source={require("../assets/images/deviruch.png")}
+            />
+            <Text style={styles.petName}>Deviruch</Text>
+          </View>
         </ScrollView>
 
         <Text style={styles.Topic}>Lembretes</Text>
@@ -150,11 +146,13 @@ export { Home };
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFE9E4"
+    backgroundColor: "#FFE9E4",
   },
   row: {
     flexDirection: "row",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+  
+
   },
   avatarContainer: {
     flexDirection: "column",
@@ -162,11 +160,13 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   rowAvatar: {
-    marginTop: hp("5%")
+    marginTop: hp("3%")
   },
   petName: {
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    fontSize: hp("2%"),
+    color: "#737373"
   },
   box: {
     flex: 3,
@@ -189,9 +189,9 @@ const styles = StyleSheet.create({
     color: "#FF7E7E"
   },
   avatar: {
-    width: 65,
-    height: 65,
-    borderRadius: 65 / 2,
+    width: 50,
+    height: 50,
+    borderRadius: 50 / 2,
     borderWidth: 2,
     borderColor: "white",
     marginBottom: 10,
@@ -199,12 +199,13 @@ const styles = StyleSheet.create({
     zIndex: 5
   },
   avatarMenu: {
-    width: 60,
-    height: 60,
-    borderRadius: 60 / 2,
+    width: 55,
+    height: 55,
+    borderRadius: 55 / 2,
     borderWidth: 2,
-    borderColor: "white",
-    marginLeft: wp(LAYOUT.spaceLeft)
+    borderColor: "#FFCEA6",
+    marginLeft: wp(LAYOUT.spaceLeft),
+
   },
   Topic: {
     fontFamily: "Quicksand-Bold",

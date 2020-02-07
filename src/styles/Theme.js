@@ -34,7 +34,7 @@ const COLORS = {
     WHITE: '#FFFFFF',
     BLACK: '#000000',
     GREEN: '#49bd78',
-    BLUE: '#54a1e6',
+    BLUE: '#4666E5',
     RED: '#ec3c3d',
     YELLOW: '#f7aa34',
     ORANGE: '#f7aa34',
